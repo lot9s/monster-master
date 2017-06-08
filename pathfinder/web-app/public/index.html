@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    
+    <!-- CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous">
+    
+    <!-- JavaScript -->
+    <script 
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+    </script>
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+      crossorigin="anonymous">
+    </script>
+    
+    <!-- JavaScript, Custom -->
+    <script type="text/javascript" src="/js/index.js"></script>
+  </head>
+  
+  <body>
+    <form class="col-sm-offset-3">
+      <br>
+      <div class="form-group row">
+        <label for="name" class="col-sm-1 form-control-label text-right">
+          Name
+        </label>
+        <div class="col-sm-5">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Name">
+        </div>
+      </div>
+      
+      <!-- Hit Points/Hit Dice -->
+      <br><br>
+      <div class="form-group row">
+        <label for="hp" class="col-sm-1 form-control-label text-right">
+          hp
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="hp"
+            placeholder="7">
+        </div>
+        <label for="hd" class="col-sm-1 form-control-label text-right">
+          HD
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="hd"
+            placeholder="1">
+        </div>
+      </div>
+      
+      <!-- STATISTICS -->
+      <br><br>
+      <div class="form-group row">
+        <label for="strength" class="col-sm-1 form-control-label text-right">
+          STR
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="strength"
+            placeholder="15">
+        </div>
+        <label for="intelligence" class="col-sm-1 form-control-label text-right">
+          INT
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="intelligence"
+            placeholder="12">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="dexterity" class="col-sm-1 form-control-label text-right">
+          DEX
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="dexterity"
+            placeholder="14">
+        </div>
+        <label for="wisdom" class="col-sm-1 form-control-label text-right">
+          WIS
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="wisdom"
+            placeholder="10">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="constitution" class="col-sm-1 form-control-label text-right">
+          CON
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="constitution"
+            placeholder="13">
+        </div>
+        <label for="charisma" class="col-sm-1 form-control-label text-right">
+          CHA
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="charisma"
+            placeholder="8">
+        </div>
+      </div>
+      
+      <!-- DEFENSE -->
+      <br><br>
+      <div class="form-group row">
+        <label for="ac" class="col-sm-1 form-control-label text-right">
+          AC
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="ac"
+            placeholder="12">
+        </div>
+        <label for="touch" class="col-sm-1 form-control-label text-right">
+          AC (t)
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="touch"
+            placeholder="12">
+        </div>
+        <label for="flat-footed" class="col-sm-1 form-control-label text-right">
+          AC (ff)
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="flat-footed"
+            placeholder="10">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="fort" class="col-sm-1 form-control-label text-right">
+          Fort
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="fort"
+            placeholder="1">
+        </div>
+        <label for="ref" class="col-sm-1 form-control-label text-right">
+          Ref
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="ref"
+            placeholder="2">
+        </div>
+        <label for="will" class="col-sm-1 form-control-label text-right">
+          Will
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="will"
+            placeholder="0">
+        </div>
+      </div>
+      
+      <!-- OFFENSE -->
+      <br><br>
+      <div class="form-group row">
+        <label for="bab" class="col-sm-1 form-control-label text-right">
+          BAB
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="bab"
+            placeholder="0">
+        </div>
+        <label for="cmb" class="col-sm-1 form-control-label text-right">
+          CMB
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="cmb"
+            placeholder="2">
+        </div>
+        <label for="cmd" class="col-sm-1 form-control-label text-right">
+          CMD
+        </label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="cmd"
+            placeholder="14">
+        </div>
+      </div>
+    </form>
+    
+    <form class="col-sm-offset-5">
+      <br><br><br><br>
+      <div class="form-group row">
+        <!--div class="col-sm-1">
+          <input
+            class="btn"
+            id="button-load"
+            type="button"
+            value="Load">
+        </div -->
+        <div class="col-sm-2">
+          <input
+            class="btn btn-primary"
+            id="button-classify"
+            type="button"
+            value="Classify">
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

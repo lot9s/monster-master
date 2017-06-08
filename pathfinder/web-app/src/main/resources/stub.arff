@@ -1,0 +1,23 @@
+@relation test-weka.filters.unsupervised.attribute.Remove-R1-2
+
+@attribute CR {'CR 1','CR 10','CR 11','CR 12','CR 13','CR 14','CR 15','CR 16','CR 17','CR 18','CR 19','CR 2','CR 20','CR 3','CR 4','CR 5','CR 6','CR 7','CR 8','CR 9'}
+@attribute hp numeric
+@attribute HD numeric
+@attribute ac numeric
+@attribute touch_ac numeric
+@attribute flatfooted_ac numeric
+@attribute Fort numeric
+@attribute Ref numeric
+@attribute Will numeric
+@attribute Str numeric
+@attribute Dex numeric
+@attribute Con numeric
+@attribute Int numeric
+@attribute Wis numeric
+@attribute Cha numeric
+@attribute BAB numeric
+@attribute CMB numeric
+@attribute CMD numeric
+
+@data
+'CR 10',
